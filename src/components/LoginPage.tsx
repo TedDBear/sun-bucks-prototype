@@ -252,8 +252,8 @@ export function LoginPage({ onLogin }: LoginPageProps) {
       <div className="w-full max-w-md space-y-6">
         {/* Header */}
         <div className="text-center space-y-2">
-          <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-            <Building className="w-8 h-8 text-primary-foreground" />
+          <div className="w-40 h-16 flex items-center justify-center mx-auto mb-4">
+            <img src="./rexus_logo.png" alt='Rexus Logo'></img>
           </div>
           <h1 className="text-2xl font-medium">SUN Bucks System</h1>
           <p className="text-muted-foreground">
